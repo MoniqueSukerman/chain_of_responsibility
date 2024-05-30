@@ -1,0 +1,15 @@
+{
+    "name": "monique/chain_of_responsibility",
+    "autoload": {
+        "psr-4": {
+            "ChainOfResponsibility\\": "src/ChainOfResponsibility/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Monique",
+            "email": "monique.porciuncula@agilize.com.br"
+        }
+    ],
+    "require": {}
+}

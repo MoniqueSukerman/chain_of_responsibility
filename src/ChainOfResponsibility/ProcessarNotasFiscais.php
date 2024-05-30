@@ -2,9 +2,9 @@
 
 namespace ChainOfResponsibility;
 
-interface SuporteAoCliente
+interface ProcessarNotasFiscais
 {
-    public function handle(string $request);
+    public function handle(array $request);
 
     public function setNext(self $next);
 }
